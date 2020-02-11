@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift', 'Sources/CHTTPParser/**/*.{c, h}'
   # s.dependency 'LoggerAPI', :git => 'https://github.com/IBM-Swift/LoggerAPI', '~> 1.7.3'
   s.dependency 'BlueSocket', '~> 1.0.0'
-  # s.dependency 'BlueSSLService', '~> 1.0.0'
+  s.dependency 'BlueSSLService', '~> 1.0.0'
 end
