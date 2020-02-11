@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.module_name  = 'KituraNet'
   s.source   = { :git => "https://github.com/IBM-Swift/KituraKit.git", :tag => s.version }
   s.source_files = 'Sources/**/*.swift', 'Sources/CHTTPParser/**/*.{c, h}'
-  s.dependency 'LoggerAPI', '~> 1.7.3'
+  s.dependency 'LoggerAPI', '~> 1.9.0'
   s.dependency 'BlueSocket', '~> 1.0.0'
   s.dependency 'BlueSSLService', '~> 1.0.0'
 end
+6	f33df20	Artem Martirosyan <artmartiros@yandex-team.ru>	11 февр. 2020 г., 21:55
